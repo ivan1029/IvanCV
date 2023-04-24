@@ -1,0 +1,41 @@
+body {
+    font-family:  Arial, Helvetica, sans-serif;
+  }
+#Hero-Section {
+    background-image: url("../img/sql.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    }
+/*card*/
+  .card {
+    height: 500px;
+    overflow: hidden;
+  }
+  .card .image-top {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #contacto form label {
+    font-weight: 700;
+    color: #373a3c;
+  }
+  
+  @media (max-width:100%) {
+    #Contacto form label {
+      font-weight: 400;
+  }
+  
+  .navbar-brand{
+      width: 100%;
+  }
+  
+  }
+  .textoBG{
+    box-shadow: 0 0 0 2em #3233341d
+  }
+  
